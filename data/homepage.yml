@@ -117,8 +117,8 @@ traditional thinking of Porter Hypothesis on a global scale using triple interac
         btnText: "View Report"
         URL: "https://drive.google.com/file/d/1Oc557r_KtUxDFR0Esk-FdNufeoMJj1rT/view?usp=sharing"
       image:
-        x: "img/fig 3.png"
-        _2x: "img/fig 6.png"
+        x: "img/fig 3.jpg"
+        _2x: "img/fig 6.jpg"
       is_even: false
 
     - title: "Balsa Wood Bridge Model"
