@@ -1,0 +1,187 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Raditian"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Xinyuan."
+  subtitle: "Future Quant Analyst"
+  description: "I am an QA intern at <a target='_blank' href='https://www.citigroup.com/global'>Citi</a> and pursuing my master's degree at Cornell. I am also a proud aggie graduated from UC Davis."
+  image:
+    alt: "first"
+    x: "img/t1.png"
+    _2x: "img/t1.png"
+  imageMobile:
+    alt: "first"
+    x: "img/first.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:xw648@cornell.edu"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/xinyuan-wang-0b3475229/"
+    - icon: "instagram"
+      URL: "https://www.instagram.com/hanson_xinyuan_wang/?hl=en"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am a passionate mathematical science enthusiast with a deep-rooted love for history and art. I strive to apply my knowledge and skills to solve complex problems and develop innovative solutions in various fields.
+    My journey in mathematical sciences has equipped me with a strong foundation in diverse areas such as calculus, statistics, algebra, and discrete mathematics. Over the years, I have honed my analytical and critical thinking abilities, which have proven invaluable in both my professional and personal life.
+    </p>
+    <p class="lead">
+    Apart from my devotion to mathematics, I am an avid explorer of history and art. I find solace in delving into the annals of the past, unraveling the fascinating stories of human civilization and our collective heritage. This passion for history and art has not only enriched my perspective on the world but also inspired me to think creatively and approach challenges with a unique mindset.
+    </p>
+    <p class="lead">
+    As a lifelong learner, I am always eager to expand my horizons. I look forward to exchanging ideas, collaborating on projects, and learning from the experiences of others.
+    <p>'
+  image:
+    x: "img/t2.jpg"
+    _2x: "img/t2.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Cornell University"
+      year: "2022-2023"
+      degree: "Operations Research and Information Engineering(M.Eng) with Financial Engineering concentration"
+
+    - university: "University of California, Davis"
+      year: "2018-2022"
+      degree: " Economics(B.A.), Statistics(B.S.), Mathematical Analytics and Operations Research(B.S.)"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Incoming Quant Analyst that is new to the industry"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/xinyuan-wang-0b3475229/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/1Jf1N9JR1K0lu1G0aDHoEKdtcwUw82kqG/view?usp=sharing"
+
+  items:
+    - title: "Summer Analyst Program, Quantitative Analysis"
+      company: "Citi"
+      duration: "June 2023 - Aug 2023"
+
+    - title: "Quantitative Research Analyst Intern"
+      company: "China Merchants Securities"
+      duration: "July 2021 - Sep 2021"
+
+    - title: "Research Assistant"
+      company: "UC Davis"
+      duration: "Sep 2020 - June 2021"
+
+    - title: "Academic Tutor"
+      company: "UC Davis"
+      duration: "Sep 2019 - June 2021"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+  works:
+    - title: "UC Davis Department of Economics-Honor Thesis"
+      description: "• Constructed panel data set of Environmental Policy Stringency Index from OECD with sector-level data from Orbis covering 
+millions of global firms (2006-2015) using R and Stata.
+• Concluded that firms' profit margins in heavy pollution sectors are significantly higher in countries with stronger 
+environmental regulations using standard difference-in-difference approach with fixed effects.
+• Addressed that the increase in firms’ profit margin may be the result of less competition due to stricter policy than the 
+traditional thinking of Porter Hypothesis on a global scale using triple interaction term regression analysis"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Paper"
+        URL: "https://drive.google.com/file/d/1EgAsWFSdx5vEYboU4tU2USmLHx-IbJ3p/view?usp=sharing"
+      image:
+        x: "img/pic.jpg"
+        _2x: "img/pic2.jpg"
+      is_even: true
+
+    - title: "Weekend effect Report"
+      description: "French (1979) discussed the weekend effect by comparing two different models of the process generating returns, which are the calendar time hypothesis and the trading time hypothesis. The calendar time hypothesis considers the process operates continuously, and, since the return for Monday represents a three-calendar day investment, the expected return for Monday will be three times as the other days. The trading time hypothesis considers the expected returns of everyday in a week is the same. Unexpectedly, this study has found that the expected return from 1953-1977 on Monday is negative, while the expected returns on all other days are positive. French believes these negative returns for Monday appear to be evidence of market inefficiency. In this study, we aim to examine if this effect of negative expected returns is still present in recent years, so that investors may be able to react and profit from this inefficiency."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Report"
+        URL: "https://drive.google.com/file/d/1Oc557r_KtUxDFR0Esk-FdNufeoMJj1rT/view?usp=sharing"
+      image:
+        x: "img/fig 3.png"
+        _2x: "img/fig 6.png"
+      is_even: false
+
+    - title: "Balsa Wood Bridge Model"
+      description: "Using light weight balsa wood to construct the strongest bridge with very efficient and aesthetic"
+      image:
+        x: "img/bridge.jpg"
+        _2x: "img/bridge2.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: false
+  title: "Contact"
+  phone:
+    title: "Phone Number"
+    number: "+1 (716) 986 6019"
+  email:
+    title: "Email"
+    email: '<a href="mailto:xw648@cornell.edu">xw648@cornell.edu</a>'
+  address:
+    title: "Address"
+    address: "503 Summerhill Dr Apt 1<br />Ithaca NY"
+  form:
+    method: "POST"
+    action: "123"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    URL: "mailto:xw648@cornell.edu"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
