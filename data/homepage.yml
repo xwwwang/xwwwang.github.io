@@ -119,7 +119,7 @@ traditional thinking of Porter Hypothesis on a global scale using triple interac
       image:
         x: "img/fig 3.jpg"
         _2x: "img/fig 6.jpg"
-      is_even: true
+      is_even: false
 
     - title: "Balsa Wood Bridge Model"
       description: "Using light weight balsa wood to construct the strongest bridge with very efficient and aesthetic"
