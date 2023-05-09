@@ -41,6 +41,10 @@ about:
     <p class="lead">
     As a lifelong learner, I am always eager to expand my horizons. I look forward to exchanging ideas, collaborating on projects, and learning from the experiences of others.
     <p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/xinyuan-wang-0b3475229/"
   image:
     x: "img/t2.jpg"
     _2x: "img/t2.jpg"
@@ -118,19 +122,8 @@ traditional thinking of Porter Hypothesis on a global scale using triple interac
         URL: "https://drive.google.com/file/d/1Oc557r_KtUxDFR0Esk-FdNufeoMJj1rT/view?usp=sharing"
       image:
         x: "img/fig 3.jpg"
-        _2x: "img/fig 6.jpg"
+        _2x: "img/fig6.jpg"
       is_even: false
-
-    - title: "Balsa Wood Bridge Model"
-      description: "Using light weight balsa wood to construct the strongest bridge with very efficient and aesthetic"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Back to Top"
-        URL: "#"
-      image:
-        x: "img/bridge.jpg"
-        _2x: "img/bridge2.jpg"
-      is_even: true
 
 # testimonial
 testimonial:
